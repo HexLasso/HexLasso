@@ -1,4 +1,6 @@
-## Comparison
+# Comparison of tools for static pattern discovery in binary data
+
+## A
 
 || FF-16 | FF-16-TUI | FF-16-Web |
 |-|-|-|-|
@@ -6,23 +8,18 @@
 |Runs offline  | Yes                 | Yes                | Yes        |
 |Interactive   | No                  | Yes                | Yes        |
 |Language      | Go                  | Go                 | HTML/JS    |
-|Max file size | 16MB                | 16MB               | 4MB        |
-|Dictionary    | Yes                 | Yes                | No         |
-|Min gap       | Configurable (0-127)|Configurable (0-127)| 0          |
-|Max gap       | Configurable (0-127)|Configurable (0-127)| 31         |
+|Purpose       |                      |                    |            |
 
+## Capabilities
 
-<!--
-**HexLasso/HexLasso** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+|| FF-16 | FF-16-TUI | FF-16-Web |
+|-|-|-|-|
+|Dictionary     | Yes                 | Yes                | No         |
+|Max file size  | 16 MB               | 16 MB              | 4 MB       |
+|Min gap        | Configurable (0-127)|Configurable (0-127)| 0          |
+|Max gap        | Configurable (0-127)|Configurable (0-127)| 31         |
+|Freq threshold | Configurable (1-255)|Configurable (1-255)| No         |
+|Pattern count per block | 1          | 10                 | 10         |
+|PAttern filter | BitBalance, Byte 00 | No                 | No         |
+|Pattern highlight in hexdump | No    | Yes                | Yes        |
+|Aggregate blocks into chunks | Yes   | No                 | No         |
