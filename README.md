@@ -4,12 +4,13 @@
 
 || FF-16 | FF-16-TUI | FF-16-Web |
 |-|-|-|-|
-|Scope         | File layout analysis, bulk analysis       | Localized analysis, interactive analysis      | Localized analysis, interactive analysis      |
+|Scope         | File layout analysis                      | Localized analysis                            | Localized analysis                            |
 |Repository    | [Link](https://github.com/HexLasso/FF-16) | [Link](https://github.com/HexLasso/FF-16-TUI) | [Link](https://github.com/HexLasso/FF-16-Web) |
 |Interface         | CLI                 | TUI                | Browser UI |
 |Can run offline   | Yes                 | Yes                | Yes        |
 |Can run without download | No           | No                 | [Yes](https://hexlasso.github.io/FF-16-Web) |
 |Interactive       | No                  | Yes                | Yes        |
+|Bulk analysis     | Yes                 | No                 | No         |
 |Language          | Go                  | Go                 | HTML/JS    |
 
 
