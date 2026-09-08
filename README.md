@@ -12,6 +12,7 @@
 |Interactive       | No                  | Yes                | Yes        |
 |Bulk analysis     | Yes                 | No                 | No         |
 |Language          | Go                  | Go                 | HTML/JS    |
+|License           | MIT                 | MIT                | MIT        |
 
 
 ## Capabilities
